@@ -1,6 +1,6 @@
 IE4483Project/
 │
-├── datasets/
+├── datasets/                ← this folder is ignored in .gitignore, please add it yourself
 │   ├── train/
 │   │   ├── cat/
 │   │   └── dog/
@@ -34,11 +34,9 @@ IE4483Project/
 python -m venv .venv
 .venv\Scripts\activate
 
-
 2️⃣ Upgrade pip (recommended)
 
 python -m pip install --upgrade pip
-
 
 3️⃣ Install all required packages
 
@@ -51,15 +49,12 @@ pip install -r requirements.txt
 python3 -m venv .venv
 source .venv/bin/activate
 
-
 2️⃣ Upgrade pip
 
 pip install --upgrade pip
 
-
 3️⃣ Install packages (Mac-specific TensorFlow build)
 go to requirements.txt and edit the tensorflow package name accordingly
-
 
 (On Intel Macs, you can also just use pip install -r requirements.txt.)
 
@@ -73,7 +68,6 @@ python - << 'PY'
 import numpy, pandas, PIL, skimage, sklearn, tqdm, joblib, tensorflow
 print("✅ Environment OK — all libraries loaded successfully.")
 PY
-
 
 windows:
 
