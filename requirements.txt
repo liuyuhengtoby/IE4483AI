@@ -1,0 +1,22 @@
+# ===== Core scientific stack =====
+numpy
+pandas
+matplotlib
+seaborn
+
+# ===== Image and data handling =====
+pillow
+scikit-image
+tqdm
+joblib
+
+# ===== Machine Learning =====
+scikit-learn
+
+# ===== Deep Learning =====
+tensorflow        # For Windows/Linux users
+# tensorflow-macos
+# tensorflow-metal   # Uncomment the above two lines for Apple Silicon (M1/M2) Macs
+
+# ===== Notebook environment =====
+jupyter
