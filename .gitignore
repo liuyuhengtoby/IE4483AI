@@ -1,0 +1,39 @@
+# === Dataset ===
+/datasets
+
+# === Python cache & env ===
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+ENV/
+
+# === Jupyter autosaves ===
+.ipynb_checkpoints/
+
+# === Model artifacts ===
+*.npz
+*.pkl
+*.joblib
+*.h5
+*.pth
+*.pt
+*.ckpt
+
+# === Logs ===
+*.log
+/deep_learning/logs/
+/traditional_ml/cached_features/
+
+# === Editors & system ===
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# === Report & submission artifacts ===
+/submission/submission.csv
+/report/*.aux
+/report/*.log
+/report/*.toc
