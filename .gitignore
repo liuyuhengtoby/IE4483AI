@@ -1,5 +1,9 @@
 # === Dataset ===
 /datasets
+/datasets_small
+
+# === Trained Models ===
+/deeplearning/Models
 
 # === Python cache & env ===
 __pycache__/
