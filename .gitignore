@@ -3,12 +3,7 @@
 /datasets_small
 
 # === TensorFlow Dataset Cache Files ===
-*.tfdata*
-*_cache/
-*_cache.tfdata*
-train_cache.tfdata.*
-val_cache.tfdata.*
-test_cache.tfdata.*
+*.tfdata.*
 
 # === Trained Models ===
 /deeplearning/Models
