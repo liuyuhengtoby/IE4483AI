@@ -81,3 +81,8 @@ The requirements.txt file includes all necessary libraries for both:
 
 traditional_ml/hog_svm.ipynb (SVM + HOG)
 deep_learning/cnn_train.ipynb and cnn_predict.ipynb (CNN)
+
+to enable gpu in training:
+1. use wsl and Ubuntu, i used 22.04 Lts
+2. use vscode with wsl extension, open project folder with linux
+3. setup venv accordingly in linux, i used tensorflow 2.15 andCuda, to be compatible with my gpu, rtx5070Ti.
