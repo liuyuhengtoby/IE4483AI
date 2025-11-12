@@ -41,11 +41,13 @@ tensorflow 2.16.2 python 3.11.7
 
 This project include multiple branches.
 Main branch include our simple cnn
-branch include the vgg transfer learning
+VGG branch include 3 notebook files. vgg16_train.ipynb is the vgg model before fine tuning. vgg16_train finetune.ipynb is the vgg model after fine tuning. 
+cnn_train_vgg16_cifar10.ipynb is the modified model for training cifar10. 
 
 
 to enable gpu in training:
 1. use wsl and Ubuntu, i used 22.04 Lts
 2. use vscode with wsl extension, open project folder with linux
 3. setup venv accordingly in linux, i used tensorflow 2.15 andCuda, to be compatible with my gpu, rtx5070Ti.
+
 
