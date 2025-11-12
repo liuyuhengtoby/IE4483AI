@@ -39,10 +39,13 @@ tensorflow 2.20 python 3.10.3
 For vgg16_train:
 tensorflow 2.16.2 python 3.11.7
 
-
+This project include multiple branches.
+Main branch include our simple cnn
+branch include the vgg transfer learning
 
 
 to enable gpu in training:
 1. use wsl and Ubuntu, i used 22.04 Lts
 2. use vscode with wsl extension, open project folder with linux
 3. setup venv accordingly in linux, i used tensorflow 2.15 andCuda, to be compatible with my gpu, rtx5070Ti.
+
