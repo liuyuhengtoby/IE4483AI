@@ -44,10 +44,13 @@ Main branch include our simple cnn
 VGG branch include 3 notebook files. vgg16_train.ipynb is the vgg model before fine tuning. vgg16_train finetune.ipynb is the vgg model after fine tuning. 
 cnn_train_vgg16_cifar10.ipynb is the modified model for training cifar10. 
 
+For the trained weights (not included in github but should be found in zipfolder and googleDrive)
+cnn_final_15k.keras for the final simple cnn model
 
 to enable gpu in training:
 1. use wsl and Ubuntu, i used 22.04 Lts
 2. use vscode with wsl extension, open project folder with linux
 3. setup venv accordingly in linux, i used tensorflow 2.15 andCuda, to be compatible with my gpu, rtx5070Ti.
+
 
 
